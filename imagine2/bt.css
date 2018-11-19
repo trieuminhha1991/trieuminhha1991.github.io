@@ -11,16 +11,16 @@ h1	{
 	font-style: normal;
 	}
 a:link 	{
-			color: red;
+			color: black;
 			}
 a:hover 	{
-			color: red;
+			color: black;
 			}
 a:active	{
-			color: red;
+			color: black;
 			}
 a:visited 	{
-			color: red;
+			color: black;
 			}
 span{
 	color: #ff9900;
@@ -30,6 +30,7 @@ span{
 	height: 30px;
 	background-color: #00fff0;
 }
+#mc a:hover{background-color: white;}
 .td{
 	width: 25%;
 	max-width: 1000px;
