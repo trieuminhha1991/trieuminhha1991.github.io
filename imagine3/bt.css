@@ -36,20 +36,31 @@ span{
 }
 .two{
 	width: 80%;
+<<<<<<< HEAD
 	position:absolute;
 	left:15%;
+=======
+>>>>>>> 3365e8cfd62d833b8df933cc0d75eed9761020a7
 }
 #main-menu{position:absolute;
 	left:15px;
 }
 .td{
+<<<<<<< HEAD
 	width: 80px
+=======
+	width: 60px
+>>>>>>> 3365e8cfd62d833b8df933cc0d75eed9761020a7
 	height: 25%;
 	float: top;
 	max-height: 80%;
 	text-align: center;
 	font-weight: bold;
+<<<<<<< HEAD
 	font-size: 100%;
+=======
+	font-size: 200%;
+>>>>>>> 3365e8cfd62d833b8df933cc0d75eed9761020a7
 	border: solid;
 }
 .tc{
