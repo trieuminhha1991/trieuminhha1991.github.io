@@ -8,34 +8,30 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-	height: 100px;
-}
-img{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	width: 300px;
 	height: 200px;
-	}
-#anh img:hover {
-    border-radius: 100%; 
 }
+.mt img{width: 150px;
+	height: 100px;
+	cursor: pointer;
+		}
+.mt img:hover {
+    border-radius: 100%; }
 h1,h2	{
 	text-align: center;
 	color: #203050;
 	font-style: normal;
 	}
-a:link 	{
+#mc a:link 	{
 			color: black;
 			text-decoration: none;
 			}
-a:hover 	{
+#mc a:hover 	{
 			color: black;
 			}
-a:active	{
+#mc a:active	{
 			color: black;
 			}
-a:visited 	{
+#mc a:visited 	{
 			color: black;
 			}
 #wrap {
@@ -46,7 +42,6 @@ a:visited 	{
 	height: 60px;
 	background-color: #00ffe5;
 }
-#mc a:hover{background-color: white;}
 .td{
 	width: 25%;
 	float: left;
@@ -62,6 +57,6 @@ a:visited 	{
 .mt{
 	float: left;
 	height: 200px;
-	width: 400;
+	width: 300px;
 	margin: auto;
 }
