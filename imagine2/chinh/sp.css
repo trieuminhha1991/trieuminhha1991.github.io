@@ -8,7 +8,27 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
+<<<<<<< HEAD
 	height: 2ss00px;
+=======
+	height: 200px;
+}
+ #mt img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: 100%;
+	cursor: pointer;
+	}
+#anh img:hover {
+    display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: 100%;
+	cursor: pointer;
+>>>>>>> 8cee75ce59969b0e793b67e13dda59c7b5e14b22
 }
 .mt img{max-width: 100%;
 	max-height: 300px;
