@@ -17,10 +17,11 @@ var increaseFontSize=function(i){
 	let b=parseInt(font);
 	if (b>10){a[i-1].style.fontSize=(b-1)+"px";}
 	else{a[i-1].style.fontSize="10px";}
- function changeColor(y){
+ }
+ function changeColor(b){
  	let a = document.querySelectorAll(".p");
  	for (var i = 0; i < a.length; i++) {
- 		a[i].style.color= y ;
+ 		a[i].style.color= b[i] ;
  	}
  }
  function changeBgColor(color){
@@ -30,4 +31,3 @@ var increaseFontSize=function(i){
  	let a = document.querySelectorAll(".p");
  	a[i-1].innerText=a[j-1].innerText;
  }
-
