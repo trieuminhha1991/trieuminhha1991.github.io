@@ -9,13 +9,14 @@ var increaseFontSize=function(i){
 	let font = a[i-1].style.fontSize;
 	let b=parseInt(font);
 	if (b<30){a[i-1].style.fontSize=(b+1)+"px";}
+	else{a[i-1].style.fontSize="30px";}
  }
  function  decreaseFontSize(i){
  	let a = document.querySelectorAll(".p");
 	let font = a[i-1].style.fontSize;
 	let b=parseInt(font);
 	if (b>10){a[i-1].style.fontSize=(b-1)+"px";}
- }
+	else{a[i-1].style.fontSize="10px";}
  function changeColor(y){
  	let a = document.querySelectorAll(".p");
  	for (var i = 0; i < a.length; i++) {
