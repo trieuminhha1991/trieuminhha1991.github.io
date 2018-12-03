@@ -1,5 +1,3 @@
-// Thực hiện các hành động bên trong khi tài liệu html của trang web được load xong và cây DOM được tạo thành
-// Thực hiện các hành động bên trong khi click vào các nút số
 function nhan(button){
     if (button.innerHTML != "Ans") {
         Dong1.value+=button.innerHTML;}
@@ -32,4 +30,11 @@ function binhphuong(){
 function phantram(){
     var a=eval(Dong1.value);
     Dong2.value+=a/100;
+}
+function giaithua(){
+    var gt=0;
+    var a=eval(Dong1.value);
+    for (var i = 1; i <= a; i++) {
+        gt*=i;
+    }
 }
