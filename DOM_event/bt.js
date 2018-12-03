@@ -32,10 +32,10 @@ function phantram(){
     Dong2.value+=a/100;
 }
 function giaithua(){
-    var gt=0;
+    var gt=1;
     var a=eval(Dong1.value);
     for (var i = 1; i <= a; i++) {
-        gt*=i;
+        gt=gt*i;
     }
-       Dong2.value=a;
+    Dong2.value=gt;
 }
