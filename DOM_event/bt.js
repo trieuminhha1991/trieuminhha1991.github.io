@@ -37,4 +37,5 @@ function giaithua(){
     for (var i = 1; i <= a; i++) {
         gt*=i;
     }
+       Dong2.value=a;
 }
