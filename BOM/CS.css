@@ -1,0 +1,7 @@
+* {padding: 0; margin: 0;}
+body {background-image: url("backgournd.jpg");}
+#cauhoi {position: absolute;
+  	left: 20%;}
+.Cau {background-color: #00ffd9d4;
+	margin: 2px;}
+button {background-color: #5cb85c;font-size: 20px}
