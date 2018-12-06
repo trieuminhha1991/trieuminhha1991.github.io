@@ -1,0 +1,7 @@
+* {padding: 0; margin: 0;}
+body {font-family: sans-serif; font-size: 14px; color: #333;}
+.calculator {width: 300px; height: auto; margin: 20px auto; padding: 10px; border: 1px solid #666; border-radius: 4px;}
+#Dong1 {width: calc(100% - 16px); background-color: #f7f8f9; border: 1px solid #666; padding: 5px 7px; font-size: 20px; border-bottom: none;}
+#Dong2 {width: calc(100% - 16px); background-color: #f9f9f9; border: 1px solid #666; padding: 5px 7px; font-size: 20px; border-top: none; text-align: right;}
+.box-button button {background-color: #5cb85c;width: 24%; height: 40px; margin-top: 5px; font-size: 20px; color: #fff; border: none; cursor: pointer; border-radius: 4px;}
+#bang button {background-color: #5cb85c;width: 24%; height: 80px; margin-top: 5px; font-size: 20px; color: #fff; border: none; cursor: pointer; border-radius: 4px;}
