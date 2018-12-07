@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.dao,.card {
+	position: relative;
+	width: 20%;
+	float: left;
+}
+img {
+	width: 100%;
+	max-height: 100%;
+}
+.dao .back{
+	transform: rotateY(180deg);
+}
+.card .back{
+	transform: rotateY(0deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.dao .front{
+	transform: rotateY(0deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.card .front{
+	transform: rotateY(180deg);
+}
+.dao .front, .dao .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+}
+.card .front, .card .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+}
