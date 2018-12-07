@@ -31,7 +31,7 @@ function flip(card){
     		kiemtra.toggleClass('dao');
     		$(card).css('pointer-events', 'auto');
     		kiemtra.css('pointer-events', 'auto');
-    		kiemtra=null;}, 1000);
+    		kiemtra=null;}, 500);
     	}else{
     		setTimeout(function(){
     			console.log('Giống nhau');
